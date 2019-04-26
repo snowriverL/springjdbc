@@ -12,6 +12,7 @@ public class Member implements Serializable {
     @Id
     private Long id;
     private String name;
+    @Column(name = "address")
     private String addr;
     private Integer age;
 
